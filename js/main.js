@@ -53,6 +53,9 @@
             width: 100%;
             position: relative;
         }
+        /*
+         * 接下来画皮卡丘的鼻子
+         */
         .nose{
             width:0;
             height: 0;
@@ -66,6 +69,9 @@
             margin-left: -12px;
         
         }
+        /*
+         * 接着画皮卡丘的眼睛
+         */
         .eye{
             width: 48px;
             height: 48px;
@@ -94,6 +100,9 @@
             left: 50%;
             margin-left: 90px;
         }
+        /*
+         * 接着皮卡丘的脸
+         */
         .face{
             width: 68px;
             height: 68px;
@@ -111,6 +120,9 @@
             left: 50%;
             margin-left: 116px;
         }
+        /*
+         * 接着，画皮卡丘的上嘴唇
+         */
         .upperLip{
             height: 25px;
             width: 80px;
@@ -134,6 +146,9 @@
             border-left: none;
             transform: rotate(15deg);
         }
+        /*
+         * 皮卡丘的下嘴唇
+         */
         .lowerLip-wrapper{
             bottom: 0;
             position: absolute;
@@ -154,6 +169,9 @@
             bottom:0;
             overflow: hidden;        
         }
+        /*
+         * 皮卡丘的小舌头
+         */
         .lowerLip::after{
             content: '';
             position: absolute;
@@ -165,7 +183,9 @@
             margin-left: -50px;
             border-radius: 50px;
         }
-
+        /*
+        * 好了，皮卡丘完成了
+        */
     `
     writeCode('',code)
 }.call()
