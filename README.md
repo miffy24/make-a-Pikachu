@@ -12,3 +12,5 @@
     - 也可以直接根据文档流原理，将html中的下嘴唇提到最上边。
 4. 添加button，可以进行调速
 5. setInterval改不了速度，用setTimeout模拟(setTimeout只调用一次)
+
+![皮卡丘.png](https://i.loli.net/2018/03/21/5ab211949560f.png)
